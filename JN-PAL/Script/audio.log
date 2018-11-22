@@ -1,0 +1,176 @@
+numid=44,iface=MIXER,name='Left PGA Mixer Line1L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=45,iface=MIXER,name='Left PGA Mixer Line1R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=46,iface=MIXER,name='Left PGA Mixer Mic2L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=47,iface=MIXER,name='Left PGA Mixer Mic2R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=49,iface=MIXER,name='Right PGA Mixer Line1L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=48,iface=MIXER,name='Right PGA Mixer Line1R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=50,iface=MIXER,name='Right PGA Mixer Mic2L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=51,iface=MIXER,name='Right PGA Mixer Mic2R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=31,iface=MIXER,name='PGA Capture Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=119,step=0
+  : values=48,48
+  | dBscale-min=0.00dB,step=0.50dB,mute=0
+numid=1,iface=MIXER,name='PCM Playback Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=127,step=0
+  : values=127,127
+  | dBscale-min=-63.50dB,step=0.50dB,mute=0
+numid=36,iface=MIXER,name='Left DAC Mux'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'DAC_L1'
+  ; Item #1 'DAC_L3'
+  ; Item #2 'DAC_L2'
+  : values=1
+numid=38,iface=MIXER,name='Right DAC Mux'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'DAC_R1'
+  ; Item #1 'DAC_R3'
+  ; Item #2 'DAC_R2'
+  : values=1
+numid=44,iface=MIXER,name='Left PGA Mixer Line1L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=45,iface=MIXER,name='Left PGA Mixer Line1R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=46,iface=MIXER,name='Left PGA Mixer Mic2L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=47,iface=MIXER,name='Left PGA Mixer Mic2R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=49,iface=MIXER,name='Right PGA Mixer Line1L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=48,iface=MIXER,name='Right PGA Mixer Line1R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=50,iface=MIXER,name='Right PGA Mixer Mic2L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=51,iface=MIXER,name='Right PGA Mixer Mic2R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=31,iface=MIXER,name='PGA Capture Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=119,step=0
+  : values=48,48
+  | dBscale-min=0.00dB,step=0.50dB,mute=0
+numid=1,iface=MIXER,name='PCM Playback Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=127,step=0
+  : values=127,127
+  | dBscale-min=-63.50dB,step=0.50dB,mute=0
+numid=36,iface=MIXER,name='Left DAC Mux'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'DAC_L1'
+  ; Item #1 'DAC_L3'
+  ; Item #2 'DAC_L2'
+  : values=1
+numid=38,iface=MIXER,name='Right DAC Mux'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'DAC_R1'
+  ; Item #1 'DAC_R3'
+  ; Item #2 'DAC_R2'
+  : values=1
+numid=44,iface=MIXER,name='Left PGA Mixer Line1L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=45,iface=MIXER,name='Left PGA Mixer Line1R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=46,iface=MIXER,name='Left PGA Mixer Mic2L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=47,iface=MIXER,name='Left PGA Mixer Mic2R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=49,iface=MIXER,name='Right PGA Mixer Line1L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=48,iface=MIXER,name='Right PGA Mixer Line1R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=50,iface=MIXER,name='Right PGA Mixer Mic2L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=51,iface=MIXER,name='Right PGA Mixer Mic2R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=31,iface=MIXER,name='PGA Capture Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=119,step=0
+  : values=36,36
+  | dBscale-min=0.00dB,step=0.50dB,mute=0
+numid=1,iface=MIXER,name='PCM Playback Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=127,step=0
+  : values=127,127
+  | dBscale-min=-63.50dB,step=0.50dB,mute=0
+numid=36,iface=MIXER,name='Left DAC Mux'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'DAC_L1'
+  ; Item #1 'DAC_L3'
+  ; Item #2 'DAC_L2'
+  : values=1
+numid=38,iface=MIXER,name='Right DAC Mux'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'DAC_R1'
+  ; Item #1 'DAC_R3'
+  ; Item #2 'DAC_R2'
+  : values=1
+numid=44,iface=MIXER,name='Left PGA Mixer Line1L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=45,iface=MIXER,name='Left PGA Mixer Line1R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=46,iface=MIXER,name='Left PGA Mixer Mic2L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=47,iface=MIXER,name='Left PGA Mixer Mic2R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=49,iface=MIXER,name='Right PGA Mixer Line1L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=48,iface=MIXER,name='Right PGA Mixer Line1R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=50,iface=MIXER,name='Right PGA Mixer Mic2L Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=51,iface=MIXER,name='Right PGA Mixer Mic2R Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=31,iface=MIXER,name='PGA Capture Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=119,step=0
+  : values=36,36
+  | dBscale-min=0.00dB,step=0.50dB,mute=0
+numid=1,iface=MIXER,name='PCM Playback Volume'
+  ; type=INTEGER,access=rw---R--,values=2,min=0,max=127,step=0
+  : values=102,102
+  | dBscale-min=-63.50dB,step=0.50dB,mute=0
+numid=36,iface=MIXER,name='Left DAC Mux'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'DAC_L1'
+  ; Item #1 'DAC_L3'
+  ; Item #2 'DAC_L2'
+  : values=1
+numid=38,iface=MIXER,name='Right DAC Mux'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'DAC_R1'
+  ; Item #1 'DAC_R3'
+  ; Item #2 'DAC_R2'
+  : values=1
